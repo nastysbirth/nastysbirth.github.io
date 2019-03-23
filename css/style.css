@@ -1,0 +1,42 @@
+body {
+margin: 0;
+padding: 0;
+font-size: 20px;
+line-height: 1.2;
+font-family: Helvetica, Arial, sans-serif;
+color: #ffffff;
+background-color: #29944c;
+background-image:
+repeating-linear-gradient(150deg,
+rgba(255, 255, 255, 0.16),
+rgba(255, 255, 255, 0.16) 2px,
+transparent 0,
+transparent 11px),
+repeating-linear-gradient(-150deg,
+rgba(255, 255, 255, 0.16),
+rgba(255, 255, 255, 0.16) 2px,
+transparent 0,
+transparent 11px);
+-ms-text-size-adjust 100%;
+-webkit-text-size-adjust 100%;
+}
+main {
+padding: 20px 20px 120px 20px;
+text-align: center;
+}
+a {
+color: pink;
+	text-decoration: none;
+}
+h1 {
+font-size: 3em;
+margin: 0;
+font-weight: normal;
+letter-spacing: 1px;
+}
+p {
+  margin: 20px 0;
+}
+a:hover {
+  color: white;
+}
